@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
-  Cloud, Sun, CloudRain, Wind, Thermometer, Droplets,
-  TrendingUp, Users, BookOpen, ArrowRight, Menu, X,
-  Calendar, MapPin, Activity, BarChart3, Moon, Sun as SunIcon,
-  Upload, Download, CheckCircle, Globe, Target, Zap,
+  Cloud, CloudRain, Thermometer, Droplets,
+  TrendingUp, Users, ArrowRight, Menu, X,
+  Calendar, MapPin, BarChart3, Moon, Sun as SunIcon,
+  Upload, Globe, Target, Zap,
   FileText, ChevronDown, User, LogOut, Lock, Mail,
-  WifiOff, Wifi, Database, Trash2, Clock
+  WifiOff, Wifi, Database, Trash2, CheckCircle
 } from 'lucide-react';
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
