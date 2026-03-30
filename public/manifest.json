@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "WeatherAI",
+  "name": "Regional Weather Forecasting",
+  "description": "Advanced time series analysis for weather prediction",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,25 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#3b82f6",
+  "background_color": "#1e3a8a",
+  "orientation": "portrait",
+  "scope": "/",
+  "categories": ["weather", "forecasting", "data"],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "View weather dashboard",
+      "url": "/#dashboard",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Analysis",
+      "short_name": "Analysis",
+      "description": "View time series analysis",
+      "url": "/#analysis",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    }
+  ]
 }
